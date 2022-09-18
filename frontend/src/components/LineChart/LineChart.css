@@ -1,0 +1,15 @@
+.line-chart {
+    /* width: 300%; */
+    display: flex;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0, 2);
+    flex-direction: column;
+    height: 70vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.line-chart > div:first-child {
+    width: 1000% !important;
+    overflow: hidden;
+}
